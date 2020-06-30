@@ -1,0 +1,35 @@
+function TrataDados(){
+    var nome = document.getElementById('nome');
+    var email = document.getElementById('Email');
+    var cpf = document.getElementById('CPF'); 
+    var btn = document.getElementById('btn');
+    var txt = document.getElementById('txtarea');
+
+    btn.onclick = function(){
+        
+        if(nome.value == ""){
+            alert('preencha todos os campos por favor');
+        }else if (email.value == ""){
+            alert('Preencha todos os campos por favor');
+        }else if(cpf.value ==""){
+            alert('Preencha todos os campos por favor');
+        }else{
+        
+
+        var tudo = nome.value;
+        var tudo2 = email.value;
+        var tudo3 = cpf.value;
+
+        txt.innerHTML = "Nome: " + tudo + " "+ " Email: " + tudo2 + " "+ " CPF: " + " "+tudo3;
+
+        nome.value = "";
+        email.value = "";
+        cpf.value = "";
+        }
+
+    }
+   
+
+    
+}
+TrataDados();
