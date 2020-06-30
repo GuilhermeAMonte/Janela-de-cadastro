@@ -1,0 +1,75 @@
+#container{
+    text-align: center;
+    margin-top: 45px;
+    margin-left: 45px;
+    font-family: sans-serif;
+    background-color: #cccccc;
+    border-color: antiquewhite 2px;
+    border-radius: 220px 10px 10px 10px;
+    margin-left: 225px;
+    margin-right: 225px;
+    margin-top: 75px;
+    padding-top: 0px;
+    color:rgb(64, 39, 75);
+    font-weight: 300;
+    font-style: initial;
+    font-family: 'Montserrat', sans-serif;
+    width: 980px;
+}
+
+
+#dados{
+    
+    padding-right: 35px;
+    padding-left: 15px;
+    margin-left: 5px;
+    float: left;
+    
+}
+#nome,#CPF,#Email{
+    margin-top: 15px;
+    padding: 8px;
+    margin-left: 2px;
+    border-radius: 5px;
+    
+}
+#btn{
+    padding-left: 424px;
+    padding-right: 424px;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    margin-top: 50px;
+    font-size: 28.6px;
+    margin-bottom: none;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+body{
+    background-image: url(./deep/_s_a12Cb104c12Cd104e0f0g64h32393FF9F2E1iEAj0k49lE5mE5.jpg);
+    
+
+}
+#txtarea{
+    border-radius: 10px;
+    text-decoration: none;
+    margin-top: 10px;
+
+}
+#txt{
+    margin-left: 10px;
+    margin-bottom: 10px;
+    margin-right: 400px;
+    padding-bottom: 10px;
+    background-color: #bbb9b9;
+    border-color: black;
+    border-radius: 7px;
+    padding: 5px;
+
+}
+
+@media screen and (max-width:944px){
+    #txtarea{
+        width: 256px;
+    }
+}
+
